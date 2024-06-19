@@ -1,0 +1,3 @@
+#!/bin/bash
+grep -i "give" sample.txt | sed -e '/welcome/{5,$s/give/learning/g}' sample.txt > newsample.txt
+
